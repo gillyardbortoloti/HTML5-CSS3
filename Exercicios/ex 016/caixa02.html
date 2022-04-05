@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag's</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(190, 190, 190);
+        }
+
+        header {
+            background-color: rgb(245, 245, 245);
+            padding: 10px;
+            margin: 10px auto 10px auto;
+            text-align: center;
+            box-shadow: 5px 3px 7px 1px rgba(5, 5, 5, 0.534);
+            border-radius: 15px 1px;
+        }
+
+            nav {
+                background-color: rgb(145, 143, 143);
+                padding: 3px;
+                box-shadow: 5px 3px 7px 1px rgba(82, 82, 82, 0.534);
+                border-radius: 6px 1px;
+            }
+
+            nav > a {
+                text-decoration: none;
+                color: rgb(245, 245, 245);
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+            nav > a:hover {
+                text-decoration: underline;
+            }
+
+            main {
+                background-color: rgb(245, 245, 245);
+                padding: 10px;
+                margin: 10px auto 10px auto;
+                box-shadow: 5px 3px 7px 1px rgba(5, 5, 5, 0.534);
+                border-radius: 15px 1px;
+            }
+            section#assuntos {
+                text-align: left;
+                color: rgb(85, 50, 50);
+                font-weight: bold;
+            }
+
+            article {
+                background-color: rgb(190, 190, 190);
+                text-align: justify;
+                text-indent: 30px;
+                padding: 0.5px;
+                box-shadow: 4px 3px 7px 1px rgb(143, 143, 143);
+                border-radius: 10px 1px;
+
+            }
+
+            article > aside {
+                background-color: rgb(145, 143, 143);
+                color: rgb(85, 50, 50) ;
+                margin: 10px auto 10px auto;
+            }
+
+            footer {
+                background-color: black;
+                color: rgb(240, 122, 122);
+                text-align: center;
+                padding: 5px;
+                margin: 0px;
+                box-shadow: 5px 3px 7px 1px rgba(5, 5, 5, 0.534);
+                border-radius: 6px 1px;
+
+            }
+
+            footer > p {
+                margin: 0px;
+            }
+
+            div > img {
+                margin: 10px;
+                border-radius: 50%;
+            }
+
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1> Meu Site</h1>
+        <nav>
+           <a href="@">Link</a> 
+           <a href="@">Link</a>
+           <a href="@">Link</a>
+           <a href="@">Link</a>
+           <a href="@">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tech</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facilis natus laborum officiis, placeat tempore consequuntur optio qui ipsam ullam, temporibus magnam dicta fugit dignissimos sapiente. Magni ad dolor adipisci. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, optio eveniet illum, nostrum officiis tempore dolore exercitationem quis modi quibusdam adipisci impedit, fugiat pariatur ratione atque vero voluptatem? Doloremque, facilis?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quia velit corrupti temporibus eos perspiciatis sunt harum repudiandae modi maxime debitis labore eaque, facilis animi, neque deserunt necessitatibus a praesentium! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum nobis et ad architecto numquam quidem, autem cum odit! Esse accusantium ullam porro sit sed ipsam tempore? Incidunt praesentium corporis explicabo.</p>
+                <aside>
+                    <p>Artigo escrito por Gillyard Bortoloti</p>
+                </aside> 
+            </article>
+            <article>
+            
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+    </footer>
+
+    <div>
+        <img src="imagem/IMG_20220118_080511_2 (2).png" alt="foto do Gillyard">
+    </div>
+    
+</body>
+</html>
